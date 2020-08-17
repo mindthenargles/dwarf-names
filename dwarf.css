@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "Aniron";
+	src: url("aniron-font/Aniron-7BaP.ttf");
+	}
+
+@font-face {
+	font-family: "Angerthas";
+	src: url("angerthas-font/Angerthas-vmwA.ttf");
+}
+
+html {
+	background-color: #e3d0b6;
+}
+
+body{
+	text-align: center;
+	font-size: 50px;
+}
+
+input[type="button"] {
+	background-color: #7c7265;
+	border: 2px solid #141414;
+	border-radius: .4em;
+	padding: .3em;
+	font-size: 40px;
+	font-family: 'Aniron', cursive;
+	color: #141414;
+}
+
+div#name {
+	font-family: 'Aniron', cursive;
+	color: #141414;
+}
+
+div#runes {
+	font-family: 'Angerthas', serif;
+	color: #141414;
+	margin-top: 5%;
+	font-size: 60px;
+}
+
+ div#name::first-letter{ 
+ 	font-size: 55px;
+	color: #d63209;
+ }
+ 
+ div#runes::first-letter {
+	font-size: 80px;
+	color: #d63209;
+ }
+
