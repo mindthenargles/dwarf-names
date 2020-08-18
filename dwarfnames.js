@@ -135,16 +135,13 @@ function writeRunes(name) {
 		target = target.replace("nd", "D")
 	};
 	if (target.includes("ng")) {
-		target = target.replace("ng", "[")
+		target = target.replace("ng", "N")
 	};
 	if (target.includes("mb")) {
 		target = target.replace("mb", "M")
 	};
 	if (target.includes("th")) {
 		target = target.replace("th", "þ")
-	};
-	if (target.includes("h")) {
-		target = target.replace("h", "{")
 	};
 	return target;
 };
